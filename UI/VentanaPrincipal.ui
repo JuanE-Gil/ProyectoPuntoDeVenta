@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>767</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>211</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: rgb(242, 5, 5);
+font: 10pt &quot;Comic Sans MS&quot;;
+}
+
+QPushButton{
+background-color: rgb(5, 108, 242);
+font: 10pt &quot;Comic Sans MS&quot;;
+border-radius: 5px;
+}
+
+QPushButton:pressed{
+background-color: rgb(5, 242, 242);
+font: 10pt &quot;Comic Sans MS&quot;;
+border-radius: 10px;
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>0</y>
+       <width>261</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>img/logo2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnVender">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>158</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>VENDER</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/dollar.png</normaloff>img/dollar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnProductos">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>198</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PRODUCTOS</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/caja.png</normaloff>img/caja.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>26</width>
+       <height>26</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnClientes">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>237</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>CLIENTES</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/usuario.png</normaloff>img/usuario.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnAlmacenes">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>277</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ALMACENES</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/cajas.png</normaloff>img/cajas.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnProveedores">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>316</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PROVEEDORES</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/terreno.png</normaloff>img/terreno.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSalidas">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>356</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SALIDAS</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/carro-de-entrega.png</normaloff>img/carro-de-entrega.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnVentas">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>395</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>VENTAS</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/ingresos.png</normaloff>img/ingresos.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>26</width>
+       <height>26</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnDetalleVentas">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>435</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DETALLE VENTAS</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/lista-de-deseos.png</normaloff>img/lista-de-deseos.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>561</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: rgb(166, 38, 121);
+font: 10pt &quot;Comic Sans MS&quot;;
+}
+
+QPushButton{
+background-color: rgb(255, 255, 255);
+font: 10pt &quot;Comic Sans MS&quot;;
+border-radius: 5px;
+color: rgb(0, 0, 0);
+}
+
+QPushButton:pressed{
+background-color: rgb(5, 242, 242);
+font: 10pt &quot;Comic Sans MS&quot;;
+border-radius: 5px;
+color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btnSalir">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Salir</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/cancel.png</normaloff>img/cancel.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
